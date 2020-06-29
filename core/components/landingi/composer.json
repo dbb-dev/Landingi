@@ -1,0 +1,9 @@
+{
+  "name": "dbb/landingi",
+  "description": "A Landingi landing pages integration for MODx.",
+  "autoload": {
+    "psr-4": {
+      "Landingi\\": "src/"
+    }
+  }
+}

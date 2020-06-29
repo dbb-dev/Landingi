@@ -1,0 +1,41 @@
+{
+  "name": "Landingi",
+  "lowCaseName": "landingi",
+  "description": "A Landingi landing pages integration for MODx.",
+  "author": "DBB",
+  "version": "0.1-pl",
+  "package": {
+    "menus": [
+    ],
+    "elements": {
+      "snippets": [
+        {
+          "name": "landingiPage",
+          "description": "Retrieve a Landingi landing page.",
+          "file": "snippet.landingpage.php",
+          "properties": [
+            {
+              "name": "pageId",
+              "description": "landingi_prop_pageId",
+              "value": ""
+            }
+          ]
+        }
+      ]
+    },
+    "systemSettings": [
+    ]
+  },
+  "database": {
+    "tables": [
+    ]
+  },
+  "build": {
+    "resolver": {
+      "after": [
+      ]
+    },
+    "setupOptions": {
+    }
+  }
+}
