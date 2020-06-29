@@ -1,0 +1,5 @@
+Landingi 0.1.0-pl
+-------------------
+Released on 2020-06-29
+
+Initial build.
